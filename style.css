@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header {
+  background-color: #363434;
+  padding: 2rem 4rem;
+  color: white;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_items {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.nav_bar .logo {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.nav_item {
+  text-decoration: none;
+  color: white;
+}
+
+/* ============================= contact us section========================== */
+
+footer {
+  background-color: #221f1f;
+  color: whitesmoke;
+}
+.section {
+  width: 80%;
+  max-width: 70rem;
+  margin: 2rem auto;
+  
+  
+
+}
+
+.section_header {
+  font-weight: 900;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hire_us_section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_form {
+  background-color: #363434;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  align-items: start;
+}
+
+.form_field .label {
+  color: white;
+}
+
+.form_input {
+  border: none;
+  background-color: transparent;
+  appearance: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.description {
+  width: 100%;
+  background-color: #221f1f;
+  margin-top: 0.5rem;
+}
+
+.contact_parts_container {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.contact_parts_container .left_part,
+.right_part {
+  flex-basis: 50%;
+}
+
+.contact_description {
+  color: #6b6161;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.contact_extra_details {
+  display: block;
+  flex-direction: column;
+  margin-top: 3rem;
+  color: #6b6161;
+}
+
+/* ============================= testimonials section =========================== */
+
+img {
+  /* margin-top: -60px; */
+}
+.testimonial-container {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin-top: 80px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  padding-bottom: 30px;
+  font-size: 28px;
+}
+.testimonial {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.testimonial img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+.testimonial-content {
+  flex-grow: 1;
+  padding-left: 27px;
+}
+.testimonial-text {
+  color: #333333;
+  padding: 15px;
+  position: relative;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 400px;
+  line-height: 22px;
+  text-align: left;
+  text-size-adjust: 10px;
+}
+.testimonial-text::before {
+  content: '"';
+  font-size: 100px;
+  color: #010000;
+  position: absolute;
+  padding-top: 24px;
+  padding-left: 20px;
+}
+.testimonial-text::after {
+  content: '"';
+  font-size: 100px;
+  color: #010000;
+  position: absolute;
+  padding-top: 24px;
+  padding-right: 130px;
+}
+.testimonial-text::before {
+  top: -20px;
+  left: -10px;
+}
+.testimonial-text::after {
+  bottom: -40px;
+  right: -10px;
+}
+.client-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.client-position {
+  color: #777;
+}
+
+/* =======================  services ================= */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  font-size: 50px;
+}
+.design {
+  font-size: 25px;
+}
+.note {
+  padding-top: 20px;
+}
+.contact {
+  padding-top: 45px;
+  font-size: 15px;
+}
+.box1 {
+  background-color: grey;
+  padding: 50px;
+}
+.box2 {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+.box3 {
+  background-color: grey;
+  padding: 50px;
+}
+
+/* ========================================= */
+
+
+
+/* ============================================= */
+

@@ -1,0 +1,157 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      footer {
+        background-color: #221f1f;
+        color: whitesmoke;
+      }
+      .section {
+        width: 80%;
+        max-width: 70rem;
+      }
+
+      .section_header {
+        font-weight: 900;
+        font-size: 2rem;
+      }
+
+      .hire_us_section {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .contact_form {
+        background-color: #363434;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+      }
+
+      .form_field {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        align-items: start;
+      }
+
+      .form_field .label {
+        color: white;
+      }
+
+      .form_input {
+        border: none;
+        background-color: transparent;
+        appearance: none;
+        border-bottom: 1px solid white;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+
+      .description {
+        width: 100%;
+        background-color: #221f1f;
+        margin-top: 0.5rem;
+      }
+
+      .contact_parts_container {
+        margin-top: 2rem;
+        display: flex;
+      }
+
+      .contact_parts_container .left_part,
+      .right_part {
+        flex-basis: 50%;
+      }
+
+      .contact_description {
+        color: #6b6161;
+        font-size: 1.7rem;
+        margin-top: 1rem;
+      }
+
+      .contact_extra_details {
+        display: block;
+        flex-direction: column;
+        margin-top: 3rem;
+        color: #6b6161;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav_bar">
+        <span class="logo">Team</span>
+
+        <ul class="nav_items">
+          <li><a href="/home.html" class="nav_item">Home</a></li>
+
+          <li><a href="/about.html" class="nav_item">About</a></li>
+
+          <li><a href="/contact.html" class="nav_item">Contact</a></li>
+
+          <li><a href="/services.html" class="nav_item">Services</a></li>
+        </ul>
+
+        <span>Mail: teamX@gmail.com</span>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hire_us_section">
+        <h2 class="section_header">Hire us for your next project</h2>
+
+        <div class="contact_parts_container">
+          <div class="left_part">
+            <h3>Hi there!</h3>
+            <p class="contact_description">
+              Ready to collaborate? Let's connect. Drop me a line or schedule a
+              call. Let's create something amazing together.
+            </p>
+
+            <div class="contact_extra_details">
+              <p>- mail:teamX@gmail.com</p>
+              <p>- Phone: 09160567358</p>
+              <p>- company: Babcock University</p>
+            </div>
+          </div>
+          <div class="right_part">
+            <form action="" class="contact_form">
+              <div class="form_field">
+                <label for="user_name">Your Name</label>
+                <input class="form_input" name="user_name" type="text" />
+              </div>
+
+              <div class="form_field">
+                <label for="user_email" style="color: white"
+                  >Your Email Address</label
+                >
+                <input class="form_input" name="user_email" type="text" />
+              </div>
+
+              <div class="form_field">
+                <label for="description">What do you want to talk about</label>
+                <textarea
+                  name="description"
+                  id="description"
+                  class="description"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy 2024 teamx
+    </footer>
+  </body>
+</html>
