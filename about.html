@@ -5,83 +5,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="./style.css" />
     <style>
-      footer {
-        background-color: #221f1f;
-        color: whitesmoke;
-      }
-      .section {
-        width: 80%;
-        max-width: 70rem;
-      }
-
-      .section_header {
-        font-weight: 900;
-        font-size: 2rem;
-      }
-
-      .hire_us_section {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .contact_form {
-        background-color: #363434;
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-      }
-
-      .form_field {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
-        align-items: start;
-      }
-
-      .form_field .label {
-        color: white;
-      }
-
-      .form_input {
-        border: none;
-        background-color: transparent;
-        appearance: none;
-        border-bottom: 1px solid white;
-        width: 100%;
-        margin-bottom: 1rem;
-      }
-
-      .description {
-        width: 100%;
-        background-color: #221f1f;
-        margin-top: 0.5rem;
-      }
-
-      .contact_parts_container {
-        margin-top: 2rem;
-        display: flex;
-      }
-
-      .contact_parts_container .left_part,
-      .right_part {
-        flex-basis: 50%;
-      }
-
-      .contact_description {
-        color: #6b6161;
-        font-size: 1.7rem;
-        margin-top: 1rem;
-      }
-
-      .contact_extra_details {
-        display: block;
-        flex-direction: column;
-        margin-top: 3rem;
-        color: #6b6161;
+      .about_section {
+        color: rgb(31, 30, 30);
       }
     </style>
   </head>
@@ -91,7 +16,7 @@
         <span class="logo">Team</span>
 
         <ul class="nav_items">
-          <li><a href="/home.html" class="nav_item">Home</a></li>
+          <li><a href="/index.html" class="nav_item">Home</a></li>
 
           <li><a href="/about.html" class="nav_item">About</a></li>
 
@@ -105,13 +30,37 @@
     </header>
 
     <main>
-      <section class="section about_section">
-        <h2>About Us</h2>
+      <section class="section about_section" style="">
+        <h1>About Us</h1>
+        <p style="font-size: 1.5rem; text-align: center; line-height: 2rem">
+          We are a passionate team of developers specializing in web design and
+          development. Our expertise lies in HTML, CSS, and JavaScript, enabling
+          us to craft beautiful, responsive, and dynamic websites. From creating
+          clean, semantic markup to styling with CSS and adding interactivity
+          with JavaScript, we bring your vision to life. Our goal is to build
+          user-friendly, efficient, and visually engaging web experiences that
+          adapt seamlessly across devices and platforms. We turn your ideas into
+          reality, pixel by pixel.
+        </p>
+      </section>
+
+      <section class="video__section section">
+        <div class="video-container video">
+          <video src="./video.mp4" autoplay></video>
+        </div>
+      </section>
+
+      <section class="d_hello_section">
+        <div class= "hello-section">
+          <p class="one">Get in touch</p>
+          <p class="two">Just Say Hello!</p>
+          <button class="hello-button">Contact</button>
+      </div>
       </section>
     </main>
 
-    <footer>
-      &copy 2024 teamx
-    </footer>
+    
+
+    <footer>&copy 2024 teamx</footer>
   </body>
 </html>
